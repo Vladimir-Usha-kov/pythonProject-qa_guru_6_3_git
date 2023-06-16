@@ -5,7 +5,7 @@ from selene.support.conditions import have, be
 
 @pytest.fixture(scope='session', autouse=True)
 def size_window():
-    browser.config.window_width = 1920
+    browser.config.window_width = 1080
     browser.config.window_height = 1920
 
 
